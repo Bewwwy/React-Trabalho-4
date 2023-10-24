@@ -4,8 +4,8 @@ import './navbar.css';
 const Navbar = () => {
   return (
     <nav>
-        <Link to="/">Home</Link>
-        <Link to="/login">Login</Link>
+        <Link to="/home">Home</Link>
+        <Link to="/">Login</Link>
         <Link to="/about">Sobre</Link>
         <Link to="/contact">Contato</Link>       
     </nav>
