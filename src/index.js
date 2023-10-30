@@ -8,7 +8,11 @@ import Home from './routes/Home';
 import Login from './routes/Login';
 import About from './routes/About';
 import Contact from './routes/Contact';
+import Posts from './routes/Posts';
 import ErrorPage from './routes/ErrorPage';
+import Post1 from './routes/post1';
+import Post2 from './routes/post2';
+import Post3 from './routes/post3';
 
 const router = createBrowserRouter([
   {
@@ -28,7 +32,19 @@ const router = createBrowserRouter([
         path:"about", element: <About />,
       },
       {
+        path:"posts", element: <Posts />,
+      },
+      {
         path:"contact", element: <Contact />,
+      },
+      {
+        path:"post1", element: <Post1 />
+      },
+      {
+        path:"post2", element: <Post2 />
+      },
+      {
+        path:"post3", element: <Post3 />
       },
     ]
   },
