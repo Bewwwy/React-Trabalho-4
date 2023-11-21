@@ -7,13 +7,15 @@ const Post2 = () => {
     return (
         <div>
             <Navbar />
-            <div className="container">
-                <p>Fala, humano… Tudo bem? 
-                    Me chamo Mili e sou uma gatinha bem legal. 
-                    Adoro dormir em colinhos humanos e sempre que posso, amasso pãozinho neles. 
-                    Passei muitos perrengues e não quero nem pensar em ser rejeitada outra vez. 
-                    Se você estiver disposto a compartilhar a vida todinha comigo, 
-                    tenha a certeza que seremos muito felizes juntos.</p>
+            <div className='b'>
+                <p>Olá, Meu nome é Beto!</p>
+                <p> Eu fui salvo durante a desapropriação de uma unidade da Sabesp, 
+                    aquele lugar que oferece água… 
+                    Agora, estou esperando a família que vai me adotar, me amar e me encher de mimos. 
+                    E sabe, não quero muita coisa não… Água fresca, sachês e uma caminha quentinha me deixarão super feliz! 
+                    Você só precisa vir me conhecer e preencher a minha ficha de adoção. 
+                    Tenho certeza que vamos formar uma família incrível! Clique em ‘Quero Adotar’
+                   </p>
             </div>
             <Footer />
         </div>

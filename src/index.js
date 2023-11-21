@@ -13,6 +13,8 @@ import ErrorPage from './routes/ErrorPage';
 import Post1 from './routes/post1';
 import Post2 from './routes/post2';
 import Post3 from './routes/post3';
+import Post4 from './routes/post4';
+import Post5 from './routes/post5';
 
 const router = createBrowserRouter([
   {
@@ -45,6 +47,12 @@ const router = createBrowserRouter([
       },
       {
         path:"post3", element: <Post3 />
+      },
+      {
+        path:"post4", element: <Post4 />
+      },
+      {
+        path:"post5", element: <Post5 />
       },
     ]
   },

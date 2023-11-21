@@ -7,13 +7,15 @@ const Post3 = () => {
     return (
         <div>
             <Navbar />
-            <div className="container">
-                <p>Eu fui salvo durante a desapropriação de uma unidade da Sabesp, 
-                    aquele lugar que oferece água… 
-                    Agora, estou esperando a família que vai me adotar, me amar e me encher de mimos. 
-                    E sabe, não quero muita coisa não… Água fresca, sachês e uma caminha quentinha me deixarão super feliz! 
-                    Você só precisa vir me conhecer e preencher a minha ficha de adoção. 
-                    Tenho certeza que vamos formar uma família incrível!</p>
+            <div className='c'>
+                <p>Meu nome é Cíntia e sou uma menina extremamente pacífica e gentil.</p>
+                <p>Quando a tia que nos resgatou insistia em levar ração para a casa, o rapaz às vezes impedia meu 
+                    filhote de comer e batia nele ou em mim. 
+                    E, apesar de tudo isso, Abel e eu resistimos. 
+                    Apesar de tudo, ainda gosto de pessoas, adoro carinho, colo, e 
+                    sou mesmo uma moça bem boazinha. Meu sonho é ser adotada com meu filho, a
+                     quem sou apegada e me dou muito bem, mas, se não der para nossa família nos receber juntos, 
+                     peço que me apresente ao pet da casa com calma, e vai dar tudo certo  Clique em ‘Quero Adotar’!</p>
             </div>
             <Footer />
         </div>

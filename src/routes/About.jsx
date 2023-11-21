@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import gato  from '../images/gato-amor.jpg';
+import Image from '../images/girl-gato.jpg';
 import './routes.css';
 
 const About = () => {
@@ -9,19 +9,16 @@ const About = () => {
         <div>
             <Navbar />
             <div className="container">
-                <h1>Qual o nosso objetivo?</h1>
-                <img src={gato} alt="gato"></img>
-                <p> O principal objetivo da Cats é sensibilizar e espalhar pela sociedade sobre a adoção e 
-                posse responsável, por meio de ações efetivas como palestras. Todo nosso trabalho é
-                 realizado por uma equipe de voluntários dedicados e dispostos a fazer do mundo um lugar
-                  melhor para os nossos amiguinhos. Fazemos a proteção dos gatos de forma diferente! 
-                  Adote e se encante!</p>
-                <p>A Cats Proporciona bem estar e qualidade de vida à maior quantidade possível de gatinhos, 
-                conhecendo suas necessidades, respeitando suas particularidades e contribuindo para 
-                 sua relação com os seres humanos.
-                A Cats já atendeu mais de 6.500 gatos em situação de abandono e baixa qualidade de
-                vida e busca por meio de ações efetivas, como castração solidária, resgates e adoção, 
-                contribuir para a construção de um mundo melhor.</p>
+                <h1>Doações</h1>
+                <img src={Image}/>
+                <p>Faça uma doação para os gatinhos!</p>
+                <p>Você pode nos ajudar a cuidar dos gatinhos adotando, divulgando nosso trabalho ou doando produtos, 
+                como ração, areia e remédios.</p>
+                <br></br>
+                <p>Tudo o que você precisa saber para adotar e garantir a segurança dos gatinhos!!</p>
+                <p>Proteger saídas e rotas de fuga</p>
+                <p>Ter condições financeiras- Este ponto é de extrema importância para garantir a qualidade de vida do gatinho</p>
+                <p>Termo de responsabilidade- Não é preciso pagar nada para adotar, mas você vai assinar um termo de responsabilidade, comprometendo-se a não doar o resgatinho para terceiros sem consentimento e zelar por sua saúde e segurança.</p>
             </div>
             <Footer />
         </div>
