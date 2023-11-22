@@ -4,3 +4,8 @@
   box-sizing: border-box;
   font-family: monospace;
 }
+
+:root {
+  --rosa: rgb(255, 184, 195);
+  --rosae: rgb(173, 70, 86);
+}
