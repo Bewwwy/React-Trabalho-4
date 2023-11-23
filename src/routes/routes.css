@@ -2,4 +2,57 @@
     display: flex;
     flex-direction: column;
     min-height: 82vh;
+    max-width: 100vw;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 2rem;
+}
+
+.banner {
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    background-color: aquamarine;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #819AE7, #9973B9, #b95996,  var(--rosa));
+    overflow: hidden;
+}
+
+.a {
+    width: 50vw;
+    margin: 2em;
+}
+
+.a h2 {
+    font-size: 4rem;
+    margin-left: 5vw;
+    margin: 6vh 5vw ;
+}
+
+.a p {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 1.3vw;
+    line-height: 1.5em;
+}
+
+.b {
+    background-color: #bde0fe;
+    height: 35vh;
+    text-align: center;
+}
+
+.b p {
+    margin: 5vw 60vh;
+    font-size: 1.3vw;
+    font-weight: 600;
+    line-height: 1.5em;
 }

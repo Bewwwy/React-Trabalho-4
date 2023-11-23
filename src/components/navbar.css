@@ -1,4 +1,27 @@
-nav {
+.nav {
     background-color: rgb(255, 184, 195);
     height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.lista {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+li {
+    margin-right: 3em;
+}
+
+li a {
+    color: var(--rosae);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+li a:hover {
+    color: #000;
 }

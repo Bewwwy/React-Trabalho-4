@@ -4,7 +4,7 @@ import './footer.css';
 function Footer() {
     return(
         <footer>
-            <p>Cats&copy;
+            <p>&copy; 2023 Cats - Todos os direitos reservados
             </p>
         </footer>
     );
