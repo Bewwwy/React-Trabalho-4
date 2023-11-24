@@ -2,14 +2,25 @@ footer {
     background-color: rgb(40, 15, 5);
     margin-top: auto;
     height: 10vh;
+    max-width: 100vw;
     text-align: center;
     color: white;
+    justify-items: space-between;
 }
 
 footer>p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+    padding-top: 2.5vh;
+    font-size: large;
 }
+
+footer>span {
+    font-size: large;
+}
+
+/*footer>p {
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin: 4.8vh 10px;
+
+}*/

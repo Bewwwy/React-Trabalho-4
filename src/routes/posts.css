@@ -1,0 +1,21 @@
+.posts {
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 23vw;
+    height: 40vh;
+    margin: 5vh 5vw;
+}
+
+.post img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
