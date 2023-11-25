@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <Navbar />
       <div className="container">
-        
+        <div className="welcome"><h1>Bem vindos à Home!</h1></div>
         <div className="foto">
           <img src={Images} className='banner' />
         </div>

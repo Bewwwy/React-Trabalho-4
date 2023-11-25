@@ -1,21 +1,48 @@
 .posts {
-    background-color: azure;
+    /*background-color: rgb(74, 177, 105);*/
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    width: 60vw;
 }
 
 .post {
+    /*background-color: rgb(111, 181, 238);*/
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
-    width: 23vw;
-    height: 40vh;
-    margin: 5vh 5vw;
+    width: 18vw;
+    height: 42vh;
+    margin: 5vh 1vw;
+    border-radius: 9%;
+    border: 2px solid var(--rosae);
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.gato {
+    /*background-color: white;*/
+    width: 17.8vw;
+    height: 27vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
 }
 
 .post img {
     width: 100%;
     max-width: 250px;
     height: auto;
+    margin: auto;
+}
+
+.post p {
+    /*background-color: aqua;*/
+    color: var(--rosae);
+    font-size: 2em;
+    margin-top: 2vh;
+}
+
+.post a {
+    text-decoration: none;
 }

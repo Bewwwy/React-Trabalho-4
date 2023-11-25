@@ -16,22 +16,22 @@ const Posts = () => {
     <div>
       <Navbar />
       <div className="container">
-        <h1>Posts</h1>
+        <div className="welcome"><h1>Conheça os gatinhos que estão em adoção!</h1></div>
         <div className="posts">
           <div className="post">
-            <Link to="/post1"><img src={Lisa} /><p>Lisa</p></Link>
+            <Link to="/post1"><div className="gato"><img src={Lisa} /></div><p>Lisa</p></Link>
           </div>
           <div className="post">
-            <Link to="/post2"><img src={Beto} /><p>Beto</p></Link>
+            <Link to="/post2"><div className="gato"><img src={Beto} /></div><p>Beto</p></Link>
           </div>
           <div className="post">
-            <Link to="/post3"><img src={Cintia} /><p>Cintia</p></Link>
+            <Link to="/post3"><div className="gato"><img src={Cintia} /></div><p>Cintia</p></Link>
           </div>
           <div className="post">
-            <Link to="/post4"><img src={Eder} /><p>Eder</p></Link>
+            <Link to="/post4"><div className="gato"><img src={Eder} /></div><p>Eder</p></Link>
           </div>
           <div className="post">
-            <Link to="/post5"><img src={Mili} /><p>Mili</p></Link>
+            <Link to="/post5"><div className="gato"><img src={Mili} /></div><p>Mili</p></Link>
           </div>
         </div>
       </div>

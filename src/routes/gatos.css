@@ -1,0 +1,44 @@
+.miau {
+    /*background-color: aqua;*/
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 5vh auto;
+}
+
+.img {
+    background-color: var(--rosae);
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem 0 0 2rem;
+}
+
+.img img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+}
+
+.meowinfo {
+    background-color: var(--rosa);
+    border-radius: 0 2rem 2rem 0;
+    width: 40vw;
+}
+
+.meowinfo h2 {
+    font-size: 2rem;
+    margin-left: 5vw;
+    margin: 6vh 5vw ;
+}
+
+.meowinfo p {
+    text-align: justify;
+    font-size: 1.5rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    line-height: 1.5em;
+}

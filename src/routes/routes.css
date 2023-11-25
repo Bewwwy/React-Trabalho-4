@@ -60,3 +60,11 @@ html {
     font-weight: 600;
     line-height: 1.5em;
 }
+
+.welcome {
+    background-color: #ede6f3;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
