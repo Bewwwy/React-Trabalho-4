@@ -1,0 +1,12 @@
+.sobre {
+
+    width: 60vw;
+    height: 60vh;
+    margin: auto;
+    text-align: center;
+}
+
+.sobre p {
+    margin-top: 4vh;
+    font-size: 1.8rem;
+}

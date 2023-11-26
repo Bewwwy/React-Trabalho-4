@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './routes/Home';
 import Login from './routes/Login';
-import About from './routes/About';
+import Donation from './routes/Donation';
+import About from './routes/Sobre';
 import Contact from './routes/Contact';
 import Posts from './routes/Posts';
 import ErrorPage from './routes/ErrorPage';
@@ -29,6 +30,9 @@ const router = createBrowserRouter([
       },
       {
         path:"home", element: <Home />,
+      },
+      {
+        path:"donation", element: <Donation />,
       },
       {
         path:"about", element: <About />,

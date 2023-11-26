@@ -3,9 +3,9 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Image from '../images/girl-gato.jpg';
 import './routes.css';
-import './about.css';
+import './donation.css';
 
-const About = () => {
+const Donation = () => {
     return (
         <div>
             <Navbar />
@@ -39,4 +39,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Donation
