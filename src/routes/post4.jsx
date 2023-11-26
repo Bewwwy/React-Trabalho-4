@@ -23,6 +23,7 @@ const Post4 = () => {
                             gosto de gatos, então espero que minha vida seja boa daqui em diante, com um sofá onde eu possa
                             me esparramar, e que me deixe sonhar com anos e anos de amor e carinho!</p>
                         <p>Clique em 'Quero Adotar'!</p>
+                        <button className="btn_l">Quero Adotar</button>
                     </div>
                 </div>
             </div>

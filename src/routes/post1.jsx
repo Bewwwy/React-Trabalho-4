@@ -20,6 +20,7 @@ const Post1 = () => {
                             Estou procurando o humano da minha vida para compartilhar muito amor e alegrias com ele.
                             Que tal vir me conhecer e me levar contigo?</p>
                         <p>Clique em 'Quero Adotar'!</p>
+                        <button className="btn_l">Quero Adotar</button>
                     </div>
                 </div>
             </div>

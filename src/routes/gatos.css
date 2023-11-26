@@ -27,12 +27,15 @@
     background-color: var(--rosa);
     border-radius: 0 2rem 2rem 0;
     width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .meowinfo h2 {
     font-size: 2rem;
     margin-left: 5vw;
-    margin: 6vh 5vw ;
+    margin: 2vh 5vw ;
 }
 
 .meowinfo p {
@@ -41,4 +44,9 @@
     margin-left: 5vw;
     margin-right: 5vw;
     line-height: 1.5em;
+}
+
+.meowinfo button {
+    margin: 4rem;
+    align-self: center;
 }

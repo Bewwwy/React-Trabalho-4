@@ -1,0 +1,18 @@
+.toq {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.contatos {
+    text-align: center;
+    margin: 2vh 0;
+}
+
+.contatos h2 {
+    margin-top: 2.5vh;
+}
+
+.contatos p {
+    font-size: 1.3rem;
+}

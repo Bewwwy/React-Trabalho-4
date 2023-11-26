@@ -22,6 +22,7 @@ const Post2 = () => {
                             Você só precisa vir me conhecer e preencher a minha ficha de adoção.
                             Tenho certeza que vamos formar uma família incrível!</p>
                         <p>Clique em 'Quero Adotar'!</p>
+                        <button className="btn_l">Quero Adotar</button>
                     </div>
                 </div>
             </div>

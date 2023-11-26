@@ -23,6 +23,7 @@ const Post3 = () => {
                             quem sou apegada e me dou muito bem, mas, se não der para nossa família nos receber juntos,
                             peço que me apresente ao pet da casa com calma, e vai dar tudo certo.</p>
                         <p>Clique em 'Quero Adotar'!</p>
+                        <button className="btn_l">Quero Adotar</button>
                     </div>
                 </div>
             </div>

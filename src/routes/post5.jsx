@@ -21,6 +21,7 @@ const Post5 = () => {
                             Se você estiver disposto a compartilhar a vida todinha comigo,
                             tenha a certeza que seremos muito felizes juntos.</p>
                         <p>Clique em 'Quero Adotar'!</p>
+                        <button className="btn_l">Quero Adotar</button>
                     </div>
                 </div>
             </div>
